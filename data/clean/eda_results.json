@@ -1,0 +1,988 @@
+{
+  "raw_count": [
+    {
+      "count": 1744
+    }
+  ],
+  "clean_count": [
+    {
+      "count": 1670
+    }
+  ],
+  "clean_behavior_count": [
+    {
+      "count": 1420
+    }
+  ],
+  "duplicate_count": [
+    {
+      "sum": 160
+    }
+  ],
+  "noise_event_count": [
+    {
+      "sum": 246
+    }
+  ],
+  "sessions_after_clean": [
+    {
+      "count": 1080
+    }
+  ],
+  "quality_distribution": [
+    {
+      "is_quality": 1,
+      "sessions": 674,
+      "traffic_share": 62.46524559777572,
+      "users": 551,
+      "user_share": 60.35049288061336,
+      "avg_time": 2.388235294117647,
+      "median_time": 3.0,
+      "pages_per_session": 1.0161764705882352,
+      "avg_scroll_depth": 2.1205882352941177,
+      "median_scroll_depth": 0.0,
+      "total_time": 1624
+    },
+    {
+      "is_quality": 2,
+      "sessions": 238,
+      "traffic_share": 22.057460611677477,
+      "users": 215,
+      "user_share": 23.548740416210297,
+      "avg_time": 44.272030651341,
+      "median_time": 29.0,
+      "pages_per_session": 1.1379310344827587,
+      "avg_scroll_depth": 65.34865900383141,
+      "median_scroll_depth": 79.0,
+      "total_time": 11555
+    },
+    {
+      "is_quality": 3,
+      "sessions": 167,
+      "traffic_share": 15.477293790546803,
+      "users": 147,
+      "user_share": 16.10076670317634,
+      "avg_time": 32.020876826722336,
+      "median_time": 22.0,
+      "pages_per_session": 2.2045929018789145,
+      "avg_scroll_depth": 66.60334029227558,
+      "median_scroll_depth": 100.0,
+      "total_time": 15338
+    }
+  ],
+  "funnel_chart": [
+    {
+      "source": "raw",
+      "target": "clean",
+      "value": 1670
+    },
+    {
+      "source": "clean",
+      "target": "dedup",
+      "value": 1510
+    },
+    {
+      "source": "dedup",
+      "target": "filtered",
+      "value": 1420
+    },
+    {
+      "source": "filtered",
+      "target": "quality_1",
+      "value": 674
+    },
+    {
+      "source": "filtered",
+      "target": "quality_2",
+      "value": 238
+    },
+    {
+      "source": "filtered",
+      "target": "quality_3",
+      "value": 167
+    }
+  ],
+  "table_info": [
+    {
+      "total_rows": 1420,
+      "client_id_unique": 864,
+      "session_id_unique": 1079,
+      "utm_content_unique": 50,
+      "avg_time_on_site": 20.08239436619718,
+      "avg_scroll_depth": 35.49366197183099
+    }
+  ],
+  "sources_traffic": [
+    {
+      "ad_placement": "1902337993612518696",
+      "sessions": 295,
+      "users": 239,
+      "weak_share": 26.10169491525424,
+      "medium_share": 43.728813559322035,
+      "strong_share": 30.16949152542373,
+      "traffic_share": 27.340129749768305
+    },
+    {
+      "ad_placement": "17611136588",
+      "sessions": 184,
+      "users": 154,
+      "weak_share": 94.02173913043478,
+      "medium_share": 4.3478260869565215,
+      "strong_share": 1.6304347826086958,
+      "traffic_share": 17.052826691380908
+    },
+    {
+      "ad_placement": "17611136587",
+      "sessions": 55,
+      "users": 42,
+      "weak_share": 74.54545454545455,
+      "medium_share": 14.545454545454545,
+      "strong_share": 10.909090909090908,
+      "traffic_share": 5.097312326227989
+    },
+    {
+      "ad_placement": "17611136589",
+      "sessions": 55,
+      "users": 52,
+      "weak_share": 67.27272727272727,
+      "medium_share": 25.454545454545453,
+      "strong_share": 7.2727272727272725,
+      "traffic_share": 5.097312326227989
+    },
+    {
+      "ad_placement": "17611136582",
+      "sessions": 49,
+      "users": 42,
+      "weak_share": 51.02040816326531,
+      "medium_share": 26.53061224489796,
+      "strong_share": 22.448979591836736,
+      "traffic_share": 4.541241890639481
+    },
+    {
+      "ad_placement": "17611136585",
+      "sessions": 33,
+      "users": 33,
+      "weak_share": 63.63636363636363,
+      "medium_share": 33.333333333333336,
+      "strong_share": 3.0303030303030303,
+      "traffic_share": 3.0583873957367933
+    },
+    {
+      "ad_placement": "",
+      "sessions": 32,
+      "users": 30,
+      "weak_share": 78.125,
+      "medium_share": 18.75,
+      "strong_share": 3.125,
+      "traffic_share": 2.9657089898053752
+    },
+    {
+      "ad_placement": "17611136591",
+      "sessions": 31,
+      "users": 27,
+      "weak_share": 51.61290322580645,
+      "medium_share": 22.580645161290324,
+      "strong_share": 25.806451612903224,
+      "traffic_share": 2.8730305838739576
+    },
+    {
+      "ad_placement": "17611136593",
+      "sessions": 27,
+      "users": 25,
+      "weak_share": 70.37037037037037,
+      "medium_share": 14.814814814814815,
+      "strong_share": 14.814814814814815,
+      "traffic_share": 2.5023169601482853
+    },
+    {
+      "ad_placement": "17611136584",
+      "sessions": 26,
+      "users": 24,
+      "weak_share": 38.46153846153846,
+      "medium_share": 23.076923076923077,
+      "strong_share": 38.46153846153846,
+      "traffic_share": 2.4096385542168677
+    },
+    {
+      "ad_placement": "17610371270",
+      "sessions": 26,
+      "users": 23,
+      "weak_share": 84.61538461538461,
+      "medium_share": 7.6923076923076925,
+      "strong_share": 7.6923076923076925,
+      "traffic_share": 2.4096385542168677
+    },
+    {
+      "ad_placement": "17611136583",
+      "sessions": 25,
+      "users": 18,
+      "weak_share": 24.0,
+      "medium_share": 24.0,
+      "strong_share": 52.0,
+      "traffic_share": 2.3169601482854496
+    },
+    {
+      "ad_placement": "17610371267",
+      "sessions": 25,
+      "users": 21,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 2.3169601482854496
+    },
+    {
+      "ad_placement": "17611136592",
+      "sessions": 23,
+      "users": 20,
+      "weak_share": 56.52173913043478,
+      "medium_share": 30.434782608695652,
+      "strong_share": 13.043478260869565,
+      "traffic_share": 2.1316033364226135
+    },
+    {
+      "ad_placement": "17610371268",
+      "sessions": 23,
+      "users": 19,
+      "weak_share": 95.65217391304348,
+      "medium_share": 4.3478260869565215,
+      "strong_share": 0.0,
+      "traffic_share": 2.1316033364226135
+    },
+    {
+      "ad_placement": "17611136579",
+      "sessions": 20,
+      "users": 19,
+      "weak_share": 80.0,
+      "medium_share": 10.0,
+      "strong_share": 10.0,
+      "traffic_share": 1.8535681186283597
+    },
+    {
+      "ad_placement": "17611136590",
+      "sessions": 18,
+      "users": 15,
+      "weak_share": 72.22222222222223,
+      "medium_share": 27.77777777777778,
+      "strong_share": 0.0,
+      "traffic_share": 1.6682113067655235
+    },
+    {
+      "ad_placement": "17611136586",
+      "sessions": 16,
+      "users": 12,
+      "weak_share": 50.0,
+      "medium_share": 31.25,
+      "strong_share": 18.75,
+      "traffic_share": 1.4828544949026876
+    },
+    {
+      "ad_placement": "17611136580",
+      "sessions": 16,
+      "users": 9,
+      "weak_share": 75.0,
+      "medium_share": 12.5,
+      "strong_share": 12.5,
+      "traffic_share": 1.4828544949026876
+    },
+    {
+      "ad_placement": "72057611649064529",
+      "sessions": 14,
+      "users": 14,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 1.2974976830398517
+    },
+    {
+      "ad_placement": "72057611648299204",
+      "sessions": 7,
+      "users": 7,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.6487488415199258
+    },
+    {
+      "ad_placement": "17610371266",
+      "sessions": 7,
+      "users": 5,
+      "weak_share": 42.857142857142854,
+      "medium_share": 0.0,
+      "strong_share": 57.142857142857146,
+      "traffic_share": 0.6487488415199258
+    },
+    {
+      "ad_placement": "72057611649064523",
+      "sessions": 5,
+      "users": 5,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.4633920296570899
+    },
+    {
+      "ad_placement": "72057611649064521",
+      "sessions": 5,
+      "users": 5,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.4633920296570899
+    },
+    {
+      "ad_placement": "72057611648299206",
+      "sessions": 5,
+      "users": 5,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.4633920296570899
+    },
+    {
+      "ad_placement": "72057611649064525",
+      "sessions": 5,
+      "users": 5,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.4633920296570899
+    },
+    {
+      "ad_placement": "72057611649064528",
+      "sessions": 5,
+      "users": 5,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.4633920296570899
+    },
+    {
+      "ad_placement": "17611136576",
+      "sessions": 4,
+      "users": 4,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.3707136237256719
+    },
+    {
+      "ad_placement": "17610371269",
+      "sessions": 4,
+      "users": 4,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.3707136237256719
+    },
+    {
+      "ad_placement": "17611136573",
+      "sessions": 4,
+      "users": 3,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.3707136237256719
+    },
+    {
+      "ad_placement": "72057611648299202",
+      "sessions": 3,
+      "users": 3,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.27803521779425394
+    },
+    {
+      "ad_placement": "17611136574",
+      "sessions": 3,
+      "users": 3,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.27803521779425394
+    },
+    {
+      "ad_placement": "1902017003864279679",
+      "sessions": 3,
+      "users": 3,
+      "weak_share": 33.333333333333336,
+      "medium_share": 33.333333333333336,
+      "strong_share": 33.333333333333336,
+      "traffic_share": 0.27803521779425394
+    },
+    {
+      "ad_placement": "17610371265",
+      "sessions": 3,
+      "users": 3,
+      "weak_share": 66.66666666666667,
+      "medium_share": 33.333333333333336,
+      "strong_share": 0.0,
+      "traffic_share": 0.27803521779425394
+    },
+    {
+      "ad_placement": "17611136581",
+      "sessions": 3,
+      "users": 2,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.27803521779425394
+    },
+    {
+      "ad_placement": "72057611648299210",
+      "sessions": 3,
+      "users": 3,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.27803521779425394
+    },
+    {
+      "ad_placement": "72057611649064524",
+      "sessions": 2,
+      "users": 2,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.18535681186283595
+    },
+    {
+      "ad_placement": "72057611649064518",
+      "sessions": 2,
+      "users": 2,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.18535681186283595
+    },
+    {
+      "ad_placement": "72057611648299201",
+      "sessions": 2,
+      "users": 2,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.18535681186283595
+    },
+    {
+      "ad_placement": "72057611648299220",
+      "sessions": 1,
+      "users": 1,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.09267840593141798
+    },
+    {
+      "ad_placement": "72057611649064511",
+      "sessions": 1,
+      "users": 1,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.09267840593141798
+    },
+    {
+      "ad_placement": "72057611649064520",
+      "sessions": 1,
+      "users": 1,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.09267840593141798
+    },
+    {
+      "ad_placement": "72057611648299200",
+      "sessions": 1,
+      "users": 1,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.09267840593141798
+    },
+    {
+      "ad_placement": "72057611648299198",
+      "sessions": 1,
+      "users": 1,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.09267840593141798
+    },
+    {
+      "ad_placement": "1901966074142716382",
+      "sessions": 1,
+      "users": 1,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.09267840593141798
+    },
+    {
+      "ad_placement": "72057611649064527",
+      "sessions": 1,
+      "users": 1,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.09267840593141798
+    },
+    {
+      "ad_placement": "17611136575",
+      "sessions": 1,
+      "users": 1,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.09267840593141798
+    },
+    {
+      "ad_placement": "72057611648299199",
+      "sessions": 1,
+      "users": 1,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.09267840593141798
+    },
+    {
+      "ad_placement": "17611136578",
+      "sessions": 1,
+      "users": 1,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.09267840593141798
+    },
+    {
+      "ad_placement": "72057611648299218",
+      "sessions": 1,
+      "users": 1,
+      "weak_share": 100.0,
+      "medium_share": 0.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.09267840593141798
+    }
+  ],
+  "traffic_by_hour": [
+    {
+      "hour": 0.0,
+      "sessions": 30,
+      "weak_share": 66.66666666666667,
+      "medium_share": 16.666666666666668,
+      "strong_share": 16.666666666666668,
+      "traffic_share": 2.7624309392265194
+    },
+    {
+      "hour": 1.0,
+      "sessions": 28,
+      "weak_share": 57.142857142857146,
+      "medium_share": 21.428571428571427,
+      "strong_share": 21.428571428571427,
+      "traffic_share": 2.578268876611418
+    },
+    {
+      "hour": 2.0,
+      "sessions": 18,
+      "weak_share": 94.44444444444444,
+      "medium_share": 0.0,
+      "strong_share": 5.555555555555555,
+      "traffic_share": 1.6574585635359116
+    },
+    {
+      "hour": 3.0,
+      "sessions": 10,
+      "weak_share": 60.0,
+      "medium_share": 40.0,
+      "strong_share": 0.0,
+      "traffic_share": 0.9208103130755064
+    },
+    {
+      "hour": 4.0,
+      "sessions": 38,
+      "weak_share": 78.94736842105263,
+      "medium_share": 13.157894736842104,
+      "strong_share": 7.894736842105263,
+      "traffic_share": 3.4990791896869244
+    },
+    {
+      "hour": 5.0,
+      "sessions": 39,
+      "weak_share": 58.97435897435897,
+      "medium_share": 30.76923076923077,
+      "strong_share": 10.256410256410257,
+      "traffic_share": 3.591160220994475
+    },
+    {
+      "hour": 6.0,
+      "sessions": 28,
+      "weak_share": 67.85714285714286,
+      "medium_share": 25.0,
+      "strong_share": 7.142857142857143,
+      "traffic_share": 2.578268876611418
+    },
+    {
+      "hour": 7.0,
+      "sessions": 55,
+      "weak_share": 69.0909090909091,
+      "medium_share": 20.0,
+      "strong_share": 10.909090909090908,
+      "traffic_share": 5.064456721915286
+    },
+    {
+      "hour": 8.0,
+      "sessions": 65,
+      "weak_share": 70.76923076923077,
+      "medium_share": 13.846153846153847,
+      "strong_share": 15.384615384615385,
+      "traffic_share": 5.985267034990792
+    },
+    {
+      "hour": 9.0,
+      "sessions": 47,
+      "weak_share": 59.57446808510638,
+      "medium_share": 12.76595744680851,
+      "strong_share": 27.659574468085108,
+      "traffic_share": 4.327808471454881
+    },
+    {
+      "hour": 10.0,
+      "sessions": 65,
+      "weak_share": 53.84615384615385,
+      "medium_share": 29.23076923076923,
+      "strong_share": 16.923076923076923,
+      "traffic_share": 5.985267034990792
+    },
+    {
+      "hour": 11.0,
+      "sessions": 59,
+      "weak_share": 55.932203389830505,
+      "medium_share": 22.033898305084747,
+      "strong_share": 22.033898305084747,
+      "traffic_share": 5.432780847145488
+    },
+    {
+      "hour": 12.0,
+      "sessions": 44,
+      "weak_share": 56.81818181818182,
+      "medium_share": 31.818181818181817,
+      "strong_share": 11.363636363636363,
+      "traffic_share": 4.051565377532229
+    },
+    {
+      "hour": 13.0,
+      "sessions": 68,
+      "weak_share": 69.11764705882354,
+      "medium_share": 16.176470588235293,
+      "strong_share": 14.705882352941176,
+      "traffic_share": 6.261510128913444
+    },
+    {
+      "hour": 14.0,
+      "sessions": 50,
+      "weak_share": 54.0,
+      "medium_share": 28.0,
+      "strong_share": 18.0,
+      "traffic_share": 4.6040515653775325
+    },
+    {
+      "hour": 15.0,
+      "sessions": 65,
+      "weak_share": 61.53846153846154,
+      "medium_share": 27.692307692307693,
+      "strong_share": 10.76923076923077,
+      "traffic_share": 5.985267034990792
+    },
+    {
+      "hour": 16.0,
+      "sessions": 50,
+      "weak_share": 52.0,
+      "medium_share": 18.0,
+      "strong_share": 30.0,
+      "traffic_share": 4.6040515653775325
+    },
+    {
+      "hour": 17.0,
+      "sessions": 68,
+      "weak_share": 67.6470588235294,
+      "medium_share": 23.529411764705884,
+      "strong_share": 8.823529411764707,
+      "traffic_share": 6.261510128913444
+    },
+    {
+      "hour": 18.0,
+      "sessions": 38,
+      "weak_share": 55.26315789473684,
+      "medium_share": 21.05263157894737,
+      "strong_share": 23.68421052631579,
+      "traffic_share": 3.4990791896869244
+    },
+    {
+      "hour": 19.0,
+      "sessions": 48,
+      "weak_share": 64.58333333333333,
+      "medium_share": 12.5,
+      "strong_share": 22.916666666666668,
+      "traffic_share": 4.419889502762431
+    },
+    {
+      "hour": 20.0,
+      "sessions": 54,
+      "weak_share": 61.111111111111114,
+      "medium_share": 25.925925925925927,
+      "strong_share": 12.962962962962964,
+      "traffic_share": 4.972375690607735
+    },
+    {
+      "hour": 21.0,
+      "sessions": 53,
+      "weak_share": 66.0377358490566,
+      "medium_share": 18.867924528301888,
+      "strong_share": 15.09433962264151,
+      "traffic_share": 4.880294659300184
+    },
+    {
+      "hour": 22.0,
+      "sessions": 30,
+      "weak_share": 36.666666666666664,
+      "medium_share": 30.0,
+      "strong_share": 33.333333333333336,
+      "traffic_share": 2.7624309392265194
+    },
+    {
+      "hour": 23.0,
+      "sessions": 36,
+      "weak_share": 58.333333333333336,
+      "medium_share": 38.888888888888886,
+      "strong_share": 2.7777777777777777,
+      "traffic_share": 3.314917127071823
+    }
+  ],
+  "traffic_by_day": [
+    {
+      "day_of_week": 0.0,
+      "sessions": 128,
+      "weak_share": 26.5625,
+      "medium_share": 42.1875,
+      "strong_share": 31.25,
+      "traffic_share": 11.862835959221501
+    },
+    {
+      "day_of_week": 1.0,
+      "sessions": 93,
+      "weak_share": 34.40860215053763,
+      "medium_share": 40.86021505376344,
+      "strong_share": 24.731182795698924,
+      "traffic_share": 8.619091751621871
+    },
+    {
+      "day_of_week": 2.0,
+      "sessions": 55,
+      "weak_share": 30.90909090909091,
+      "medium_share": 47.27272727272727,
+      "strong_share": 21.818181818181817,
+      "traffic_share": 5.097312326227989
+    },
+    {
+      "day_of_week": 3.0,
+      "sessions": 95,
+      "weak_share": 41.05263157894737,
+      "medium_share": 29.473684210526315,
+      "strong_share": 29.473684210526315,
+      "traffic_share": 8.804448563484709
+    },
+    {
+      "day_of_week": 4.0,
+      "sessions": 414,
+      "weak_share": 85.99033816425121,
+      "medium_share": 8.695652173913043,
+      "strong_share": 5.314009661835748,
+      "traffic_share": 38.368860055607044
+    },
+    {
+      "day_of_week": 5.0,
+      "sessions": 116,
+      "weak_share": 66.37931034482759,
+      "medium_share": 20.689655172413794,
+      "strong_share": 12.931034482758621,
+      "traffic_share": 10.750695088044486
+    },
+    {
+      "day_of_week": 6.0,
+      "sessions": 178,
+      "weak_share": 66.85393258426966,
+      "medium_share": 17.97752808988764,
+      "strong_share": 15.168539325842696,
+      "traffic_share": 16.496756255792402
+    }
+  ],
+  "pages_distribution": [
+    {
+      "page_path": "/",
+      "sessions": 1061,
+      "users": 857,
+      "avg_time": 18.001795332136446,
+      "median_time": 4.0,
+      "avg_scroll_depth": 23.975763016157988,
+      "median_scroll_depth": 0.0,
+      "weak_share": 62.582469368520265,
+      "medium_share": 21.86616399622997,
+      "strong_share": 15.551366635249764,
+      "traffic_share": 80.01508295625943
+    },
+    {
+      "page_path": "/catalog",
+      "sessions": 181,
+      "users": 158,
+      "avg_time": 27.313084112149532,
+      "median_time": 22.0,
+      "avg_scroll_depth": 82.94859813084112,
+      "median_scroll_depth": 100.0,
+      "weak_share": 3.867403314917127,
+      "medium_share": 7.734806629834254,
+      "strong_share": 88.39779005524862,
+      "traffic_share": 13.650075414781297
+    },
+    {
+      "page_path": "/hyundai-solaris-2017",
+      "sessions": 24,
+      "users": 20,
+      "avg_time": 35.08,
+      "median_time": 32.0,
+      "avg_scroll_depth": 77.12,
+      "median_scroll_depth": 100.0,
+      "weak_share": 12.5,
+      "medium_share": 4.166666666666667,
+      "strong_share": 83.33333333333333,
+      "traffic_share": 1.8099547511312217
+    },
+    {
+      "page_path": "/kia-rio-2023",
+      "sessions": 20,
+      "users": 19,
+      "avg_time": 28.095238095238095,
+      "median_time": 25.0,
+      "avg_scroll_depth": 82.0952380952381,
+      "median_scroll_depth": 100.0,
+      "weak_share": 0.0,
+      "medium_share": 5.0,
+      "strong_share": 95.0,
+      "traffic_share": 1.5082956259426847
+    },
+    {
+      "page_path": "/index",
+      "sessions": 15,
+      "users": 13,
+      "avg_time": 14.526315789473685,
+      "median_time": 4.0,
+      "avg_scroll_depth": 22.263157894736842,
+      "median_scroll_depth": 0.0,
+      "weak_share": 13.333333333333334,
+      "medium_share": 20.0,
+      "strong_share": 66.66666666666667,
+      "traffic_share": 1.1312217194570136
+    },
+    {
+      "page_path": "/hyundai-solaris-2020",
+      "sessions": 8,
+      "users": 8,
+      "avg_time": 55.77777777777778,
+      "median_time": 55.0,
+      "avg_scroll_depth": 79.11111111111111,
+      "median_scroll_depth": 100.0,
+      "weak_share": 0.0,
+      "medium_share": 0.0,
+      "strong_share": 100.0,
+      "traffic_share": 0.6033182503770739
+    },
+    {
+      "page_path": "/kia-rio-2021",
+      "sessions": 6,
+      "users": 6,
+      "avg_time": 34.5,
+      "median_time": 32.5,
+      "avg_scroll_depth": 72.83333333333333,
+      "median_scroll_depth": 85.5,
+      "weak_share": 0.0,
+      "medium_share": 0.0,
+      "strong_share": 100.0,
+      "traffic_share": 0.45248868778280543
+    },
+    {
+      "page_path": "/contacts",
+      "sessions": 6,
+      "users": 6,
+      "avg_time": 9.571428571428571,
+      "median_time": 9.0,
+      "avg_scroll_depth": 62.714285714285715,
+      "median_scroll_depth": 100.0,
+      "weak_share": 0.0,
+      "medium_share": 33.333333333333336,
+      "strong_share": 66.66666666666667,
+      "traffic_share": 0.45248868778280543
+    },
+    {
+      "page_path": "/kia-rio-2022",
+      "sessions": 5,
+      "users": 5,
+      "avg_time": 19.8,
+      "median_time": 23.0,
+      "avg_scroll_depth": 55.6,
+      "median_scroll_depth": 48.0,
+      "weak_share": 0.0,
+      "medium_share": 20.0,
+      "strong_share": 80.0,
+      "traffic_share": 0.3770739064856712
+    }
+  ],
+  "device_distribution": [
+    {
+      "screen_group": "small_mobile",
+      "sessions": 442,
+      "low_share": 63.574660633484164,
+      "medium_share": 23.529411764705884,
+      "high_share": 12.895927601809955,
+      "traffic_share": 40.925925925925924
+    },
+    {
+      "screen_group": "large_mobile",
+      "sessions": 412,
+      "low_share": 61.16504854368932,
+      "medium_share": 20.631067961165048,
+      "high_share": 18.203883495145632,
+      "traffic_share": 38.148148148148145
+    },
+    {
+      "screen_group": "desktop",
+      "sessions": 138,
+      "low_share": 50.72463768115942,
+      "medium_share": 28.26086956521739,
+      "high_share": 21.014492753623188,
+      "traffic_share": 12.777777777777779
+    },
+    {
+      "screen_group": "small_desktop",
+      "sessions": 59,
+      "low_share": 86.44067796610169,
+      "medium_share": 10.169491525423728,
+      "high_share": 3.389830508474576,
+      "traffic_share": 5.462962962962963
+    },
+    {
+      "screen_group": "tablet",
+      "sessions": 21,
+      "low_share": 90.47619047619048,
+      "medium_share": 4.761904761904762,
+      "high_share": 4.761904761904762,
+      "traffic_share": 1.9444444444444444
+    },
+    {
+      "screen_group": "large_desktop",
+      "sessions": 8,
+      "low_share": 12.5,
+      "medium_share": 50.0,
+      "high_share": 37.5,
+      "traffic_share": 0.7407407407407407
+    }
+  ]
+}
