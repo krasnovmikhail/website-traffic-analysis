@@ -49,7 +49,7 @@
 - 14% — Medium quality  
 - 10% — High quality  
 
-![Data Transformation](../charts/copy27_04/data_transformation_funnel.png)
+![Data Transformation](../charts/data_transformation_funnel.png)
 
 ---
 
@@ -95,7 +95,7 @@
 
 Ниже представлено распределение источников по объёму и качеству трафика:
 
-![Traffic Sources](../charts/copy27_04/traffic_quality_sources.png)
+![Traffic Sources](../charts/traffic_quality_sources.png)
 
 ---
 
@@ -220,7 +220,7 @@
 
 #### Воронка переходов
 
-![Funnel](../charts/copy27_04/funnel_landing_catalog_car.png)
+![Funnel](../charts/funnel_landing_catalog_car.png)
 
 График отражает резкое снижение объёма после лендинга и рост качества на последующих этапах.
 
@@ -238,7 +238,7 @@
 
 #### Распределение качества по времени
 
-![Scatter](../charts/copy27_04/hour_quality_scatter.png)
+![Scatter](../charts/hour_quality_scatter.png)
 
 График показывает, что ночной трафик преимущественно некачественный, тогда как днём доля вовлечённых пользователей выше.
 
@@ -255,7 +255,7 @@ Desktop обеспечивает меньший объём трафика, но 
 Tablet и small_desktop показывают наименее качественный трафик, однако их вклад в общий объём незначителен, поэтому влияние на общую картину ограничено.
 #### Качество по устройствам
 
-![Device Quality](../charts/copy27_04/device_quality.png)
+![Device Quality](../charts/device_quality.png)
 
 Desktop демонстрирует более высокий уровень вовлечённости при меньшем объёме трафика.
 
